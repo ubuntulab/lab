@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>1a.html</title>
+</head>
+<body>
+<h1>Fibonacci numbers</h1>
+<script type="text/javascript">
+var a,b,c,i,n;
+n=prompt("enter the limit");
+if (n == 0)
+{
+document.write("invalid input");
+}
+if (n == 1)
+{
+document.write("series with 1 input is 0");
+}
+if(n>=2)
+{
+a=0,b=1;
+document.write(a + " " + b)
+for (i = 1; i <= n-2; i++)
+{
+c = a + b;
+a = b; 
+b = c;
+document.write(" " + c+" ");
+} 
+}
+</script>
+</body>
+</html>
