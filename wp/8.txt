@@ -1,0 +1,20 @@
+
+c:\>mysql -u root -p mysql>show databases; mysql>drop database cse; mysql>create database cse; mysql>use cse;
+
+
+
+
+mysql>create table students (name varchar(32), age varchar(32)); 
+
+
+
+mysql>insert into students values ('X', '0');
+
+
+
+
+mysql>select * from students; 
+
+
+
+mysql>quit;
