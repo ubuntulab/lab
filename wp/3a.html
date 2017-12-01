@@ -5,13 +5,10 @@
 var top_para_id = "p3";
 function totop(para_id)
 {
-// send back the current para to its initial depth
 top_para=document.getElementById(top_para_id);
 top_para.style.zIndex=0;
-//bring forward the selected para
 para=document.getElementById(para_id);
 para.style.zIndex=10;
-//set the selected para as top para
 top_para_id = para_id;
 }
 </script>
@@ -30,7 +27,9 @@ background-color:red;
 position:absolute;
 top:100px;
 left:100px;
-padding:50px; background-color:blue; z-index:0;
+padding:50px;
+background-color:blue;
+z-index:0;
 }
 #p3
 {
